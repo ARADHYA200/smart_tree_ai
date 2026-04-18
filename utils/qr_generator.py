@@ -3,7 +3,7 @@ QR Code Generator Module
 """
 import qrcode
 import io
-from PIL import Image
+# from PIL import Image
 import base64
 from typing import Tuple
 
