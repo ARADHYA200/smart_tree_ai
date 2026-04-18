@@ -237,25 +237,25 @@ if tree_param is not None:
     selected_page = "tree_detail"
 
 # Route to selected page
-if selected_page == "🏠 Dashboard":
+if selected_page == "Dashboard":
     render_dashboard()
 
-elif selected_page == "🌳 Garden":
+elif selected_page == "Garden":
     render_garden()
 
-elif selected_page == "🤖 Image AI":
+elif selected_page == "Image AI":
     render_image_ai()
 
-elif selected_page == "💡 Recommendations":
+elif selected_page == "Recommendations":
     render_recommendations()
 
-elif selected_page == "💬 Chatbot":
+elif selected_page == "Chatbot":
     render_chatbot()
 
 elif selected_page == "tree_detail":
     render_tree_detail()
 
-elif selected_page == "⭐ Favorites":
+elif selected_page == "Favorites":
     st.markdown("""
     <h1 style="color: #e2e8f0; margin-bottom: 10px;">⭐ Your Favorites</h1>
     <p style="color: #94a3b8; font-size: 14px;">Trees you've saved for later</p>
@@ -273,7 +273,7 @@ elif selected_page == "⭐ Favorites":
     else:
         st.info("💡 Start adding trees to your favorites! Click the star icon in the Garden or Recommendations section.")
 
-elif selected_page == "⚙️ Settings":
+elif selected_page == "Settings":
     st.markdown("""
     <h1 style="color: #e2e8f0; margin-bottom: 10px;">⚙️ Settings</h1>
     <p style="color: #94a3b8; font-size: 14px;">Customize your experience</p>
