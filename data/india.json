@@ -1,0 +1,1542 @@
+[
+  {
+    "name": "Peepal",
+    "scientific_name": "Ficus religiosa",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Amaltas",
+    "scientific_name": "Cassia fistula",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rosewood",
+    "scientific_name": "Dalbergia sissoo",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Jamun",
+    "scientific_name": "Syzygium cumini",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Chinar",
+    "scientific_name": "Platanus orientalis",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Gulmohar",
+    "scientific_name": "Delonix regia",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Jamun",
+    "scientific_name": "Syzygium cumini",
+    "purpose": [
+      "shade"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Bael",
+    "scientific_name": "Aegle marmelos",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Khejri",
+    "scientific_name": "Prosopis cineraria",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Teak",
+    "scientific_name": "Tectona grandis",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "shade"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Chinar",
+    "scientific_name": "Platanus orientalis",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Chinar",
+    "scientific_name": "Platanus orientalis",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Deodar",
+    "scientific_name": "Cedrus deodara",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Sal",
+    "scientific_name": "Shorea robusta",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Sal",
+    "scientific_name": "Shorea robusta",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Bael",
+    "scientific_name": "Aegle marmelos",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "shade"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Bael",
+    "scientific_name": "Aegle marmelos",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Bael",
+    "scientific_name": "Aegle marmelos",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Teak",
+    "scientific_name": "Tectona grandis",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Sandalwood",
+    "scientific_name": "Santalum album",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Peepal",
+    "scientific_name": "Ficus religiosa",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Palash",
+    "scientific_name": "Butea monosperma",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Sandalwood",
+    "scientific_name": "Santalum album",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Peepal",
+    "scientific_name": "Ficus religiosa",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Moringa",
+    "scientific_name": "Moringa oleifera",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Khejri",
+    "scientific_name": "Prosopis cineraria",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "purpose": [
+      "shade"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Moringa",
+    "scientific_name": "Moringa oleifera",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Amaltas",
+    "scientific_name": "Cassia fistula",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Chinar",
+    "scientific_name": "Platanus orientalis",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tulsi",
+    "scientific_name": "Ocimum sanctum",
+    "purpose": [
+      "shade"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rosewood",
+    "scientific_name": "Dalbergia sissoo",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Peepal",
+    "scientific_name": "Ficus religiosa",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rubber Tree",
+    "scientific_name": "Hevea brasiliensis",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Moringa",
+    "scientific_name": "Moringa oleifera",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Palash",
+    "scientific_name": "Butea monosperma",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Mahogany",
+    "scientific_name": "Swietenia mahagoni",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Chinar",
+    "scientific_name": "Platanus orientalis",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Peepal",
+    "scientific_name": "Ficus religiosa",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Teak",
+    "scientific_name": "Tectona grandis",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Deodar",
+    "scientific_name": "Cedrus deodara",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Bael",
+    "scientific_name": "Aegle marmelos",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Chinar",
+    "scientific_name": "Platanus orientalis",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Kadamba",
+    "scientific_name": "Neolamarckia cadamba",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Deodar",
+    "scientific_name": "Cedrus deodara",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Mahogany",
+    "scientific_name": "Swietenia mahagoni",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Khejri",
+    "scientific_name": "Prosopis cineraria",
+    "purpose": [
+      "shade"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Ashoka",
+    "scientific_name": "Saraca asoca",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Palash",
+    "scientific_name": "Butea monosperma",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rosewood",
+    "scientific_name": "Dalbergia sissoo",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Palash",
+    "scientific_name": "Butea monosperma",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Banyan",
+    "scientific_name": "Ficus benghalensis",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Arjun",
+    "scientific_name": "Terminalia arjuna",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Amaltas",
+    "scientific_name": "Cassia fistula",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rubber Tree",
+    "scientific_name": "Hevea brasiliensis",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Ashoka",
+    "scientific_name": "Saraca asoca",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 7,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rubber Tree",
+    "scientific_name": "Hevea brasiliensis",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tulsi",
+    "scientific_name": "Ocimum sanctum",
+    "purpose": [
+      "shade"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 5,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Rosewood",
+    "scientific_name": "Dalbergia sissoo",
+    "purpose": [
+      "decorative"
+    ],
+    "space": "large",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Kadamba",
+    "scientific_name": "Neolamarckia cadamba",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "purpose": [
+      "shade"
+    ],
+    "space": "large",
+    "climate": "hot",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Palash",
+    "scientific_name": "Butea monosperma",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 9,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Areca Palm",
+    "scientific_name": "Dypsis lutescens",
+    "purpose": [
+      "fruit"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Deodar",
+    "scientific_name": "Cedrus deodara",
+    "purpose": [
+      "medicinal"
+    ],
+    "space": "small",
+    "climate": "cold",
+    "oxygen": 6,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "hot",
+    "oxygen": 10,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "medium",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "purpose": [
+      "oxygen"
+    ],
+    "space": "medium",
+    "climate": "cold",
+    "oxygen": 8,
+    "uses": "Environmental and ecological benefits",
+    "region": "India",
+    "growth_rate": "fast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/Neem_tree.jpg"
+  }
+]
