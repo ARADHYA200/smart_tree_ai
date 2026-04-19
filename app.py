@@ -231,7 +231,7 @@ button[role="tab"][aria-selected="true"] {{
 
 # Render sidebar and get page selection
 selected_page = render_sidebar()
-params = st.experimental_get_query_params()
+params = st.query_params()
 tree_param = params.get("tree", [None])[0]
 if tree_param is not None:
     selected_page = "tree_detail"
