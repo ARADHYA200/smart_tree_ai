@@ -7,8 +7,12 @@ from PIL import Image
 import io
 from typing import List, Dict, Tuple, Any
 import streamlit as st
-from sklearn.metrics.pairwise import cosine_similarity
 import hashlib
+
+def cosine_similarity_manual(a, b):
+    a = np.array(a)
+    b = np.array(b)
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
 class TreeImageClassifier:
     """

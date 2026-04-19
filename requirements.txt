@@ -6,3 +6,4 @@ qrcode
 plotly
 requests
 streamlit-option-menu
+scikit-learn
