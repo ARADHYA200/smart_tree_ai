@@ -64,7 +64,7 @@ def render_chatbot():
         response = generate_chatbot_response(user_input, trees)
         st.session_state.chat_history.append({'role': 'assistant', 'message': response})
         st.session_state.chatbot_suggestion = ''
-        st.experimental_rerun()
+        st.rerun()
 
     # Quick suggestions
     st.markdown("<br>", unsafe_allow_html=True)
