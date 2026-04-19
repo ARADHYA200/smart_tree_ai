@@ -9,8 +9,8 @@ from utils.qr_generator import generate_qr_code, qr_to_bytes
 
 def render_tree_detail():
     """Render detailed tree information for a scanned QR code."""
-    params = st.experimental_get_query_params()
-    tree_id_param = params.get("tree", [None])[0]
+    params = st.query_params
+    tree_id_param = params.get("tree")
 
     st.markdown("""
     <h1 style="color: #e2e8f0; margin-bottom: 10px;">🌳 Tree Detail</h1>

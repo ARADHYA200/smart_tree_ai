@@ -16,7 +16,7 @@ class Config:
     # Server
     SERVER_PORT = int(os.getenv("STREAMLIT_SERVER_PORT", 8501))
     SERVER_ADDRESS = os.getenv("STREAMLIT_SERVER_ADDRESS", "localhost")
-    APP_BASE_URL = os.getenv("APP_BASE_URL", "https://smarttreeai.com")
+    APP_BASE_URL = os.getenv("APP_BASE_URL", "https://smart-tree-system.streamlit.app")
     
     # Data
     DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
