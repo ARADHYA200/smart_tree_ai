@@ -4,56 +4,64 @@ Chatbot Page - AI-powered tree expert chatbot
 import streamlit as st
 from utils.data_loader import load_trees_data
 
+
 def render_chatbot():
     """Render AI chatbot page"""
 
-    
     st.markdown("""
-    <h1 style="color: #e2e8f0; margin-bottom: 10px;">💬 Tree Expert Chatbot</h1>
-    <p style="color: #94a3b8; font-size: 14px;">Ask me anything about trees, gardening, and sustainability</p>
+    <h1 style="color: #e2e8f0;">💬 Tree Expert Chatbot</h1>
+    <p style="color: #94a3b8;">Ask me anything about trees 🌳</p>
     """, unsafe_allow_html=True)
 
     trees = load_trees_data()
 
+    # ✅ INIT STATE
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = [
             {
                 'role': 'assistant',
-                'message': "Hello! I'm your tree expert. I can help you with information about tree species, care tips, environmental benefits, and planting advice. What would you like to know?"
+                'message': "Hello! I'm your tree expert 🌳 Ask me anything!"
             }
         ]
 
-    if 'chatbot_suggestion' not in st.session_state:
-        st.session_state.chatbot_suggestion = ''
+    if 'chatbot_input' not in st.session_state:
+        st.session_state.chatbot_input = ""
 
+    # ✅ SHOW CHAT
     st.markdown("<br>", unsafe_allow_html=True)
-
-    # Chat history
     for item in st.session_state.chat_history:
         if item['role'] == 'assistant':
-            st.markdown(f"**🤖 Assistant:** {item['message']}")
+            st.markdown(f"🤖 {item['message']}")
         else:
-            st.markdown(f"**You:** {item['message']}")
+            st.markdown(f"👤 {item['message']}")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Input (NO FORM)
+    # ✅ INPUT (FIXED)
     user_input = st.text_input(
         "Your question...",
-        key="chatbot_input",
-        value=st.session_state.chatbot_suggestion
+        key="chatbot_input"
     )
 
+    # ✅ SEND BUTTON
     if st.button("Send"):
-        if user_input:
-            st.session_state.chat_history.append({'role': 'user', 'message': user_input})
+        if user_input.strip():
+            st.session_state.chat_history.append({
+                'role': 'user',
+                'message': user_input
+            })
+
             response = generate_chatbot_response(user_input, trees)
-            st.session_state.chat_history.append({'role': 'assistant', 'message': response})
-            st.session_state.chatbot_suggestion = ''
-            st.session_state.chatbot_input = ''
+
+            st.session_state.chat_history.append({
+                'role': 'assistant',
+                'message': response
+            })
+
+            st.session_state.chatbot_input = ""
             st.rerun()
 
-    # Suggestions
+    # ✅ SUGGESTIONS (FIXED UX)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("##### Quick Questions")
 
@@ -67,28 +75,27 @@ def render_chatbot():
     ]
 
     cols = st.columns(2)
+
     for idx, suggestion in enumerate(suggestions):
         with cols[idx % 2]:
             if st.button(f"💭 {suggestion}", key=f"suggest_{idx}"):
-                st.session_state.chat_history.append({'role': 'user', 'message': suggestion})
-                response = generate_chatbot_response(suggestion, trees)
-                st.session_state.chat_history.append({'role': 'assistant', 'message': response})
+                # ✅ Fill input instead of auto-answer
+                st.session_state.chatbot_input = suggestion
                 st.rerun()
-    
+
 
 def generate_chatbot_response(user_input: str, trees: list) -> str:
     user_lower = user_input.lower()
 
-    
     responses = {
-        "oxygen": f"Our database has {len([t for t in trees if t['oxygen'] >= 8])} high oxygen-producing trees. Trees like Peepal and Neem are particularly known for excellent oxygen production.",
-        "medicinal": f"We have {len([t for t in trees if 'medicinal' in t['purpose']])} medicinal trees in our database. They provide health benefits and are used in traditional medicine.",
-        "climate": "Choose trees that match your climate! Hot climate trees are different from cold climate trees. I can recommend the best trees for your specific climate zone.",
-        "care": "Tree care depends on the species, but generally includes: regular watering, proper sunlight, soil preparation, and seasonal maintenance.",
-        "native": f"India has {len([t for t in trees if t['country'] == 'India'])} native trees in our database, while the US has {len([t for t in trees if t['country'] == 'US'])} trees.",
-        "environment": "Trees are crucial for the environment! They produce oxygen, absorb CO2, prevent soil erosion, and provide habitats.",
-        "small": "For small spaces, consider compact trees like Arjun or trees with limited growth.",
-        "decorative": f"We have {len([t for t in trees if 'decorative' in t['purpose']])} ornamental trees perfect for beautifying your garden.",
+        "oxygen": f"Our database has {len([t for t in trees if t['oxygen'] >= 8])} high oxygen-producing trees like Peepal 🌿 and Neem 🌱.",
+        "medicinal": f"We have {len([t for t in trees if 'medicinal' in t['purpose']])} medicinal trees used in traditional medicine.",
+        "climate": "Choose trees based on your climate 🌤️ — hot vs cold matters a lot!",
+        "care": "Tree care includes watering 💧, sunlight ☀️, soil 🌱, and maintenance ✂️.",
+        "native": f"India has {len([t for t in trees if t['country'] == 'India'])} native trees 🌳 in our dataset.",
+        "environment": "Trees produce oxygen 🌿, absorb CO₂ 🌍, and protect soil.",
+        "small": "For small spaces 🏡, choose compact trees like Arjun.",
+        "decorative": f"We have {len([t for t in trees if 'decorative' in t['purpose']])} decorative trees 🌸."
     }
 
     for keyword, response in responses.items():
@@ -96,9 +103,11 @@ def generate_chatbot_response(user_input: str, trees: list) -> str:
             return response
 
     if "?" in user_input:
-        return "That's a great question! Try asking about oxygen, medicinal, climate, or native trees."
+        return "Try asking about oxygen, medicinal, climate, or native trees 🌳"
     else:
-        return "Please ask a specific question about trees."
+        return "Please ask a specific question about trees 🌱"
+
+
     
 
 
