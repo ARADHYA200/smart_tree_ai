@@ -12,7 +12,9 @@ import hashlib
 def cosine_similarity_manual(a, b):
     a = np.array(a)
     b = np.array(b)
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
+    denom = (np.linalg.norm(a) * np.linalg.norm(b)) + 1e-8
+    return np.dot(a, b) / denom
 
 class TreeImageClassifier:
     """
@@ -59,18 +61,19 @@ class TreeImageClassifier:
         
         return features / (np.linalg.norm(features) + 1e-8)
     
-    def get_url_image_features(self, image_url: str) -> np.ndarray:
-        """
-        Extract features from image URL
-        """
+    def get_url_image_features(self, image_url: str):
         try:
             import requests
             response = requests.get(image_url, timeout=5)
-            image = Image.open(io.BytesIO(response.content))
+            
+            if response.status_code != 200:
+                return None
+            
+            image = Image.open(io.BytesIO(response.content)).convert("RGB")
             return self.extract_image_features(image)
-        except Exception as e:
-            st.warning(f"Could not load image from URL: {e}")
-            return None
+        
+        except Exception:
+            return None   # ❗ REMOVE st.warning spam
     
     def predict_tree(self, 
                     user_image: Image.Image,
@@ -107,10 +110,7 @@ class TreeImageClassifier:
                 
                 if tree_features is not None:
                     # Calculate cosine similarity
-                    sim = cosine_similarity(
-                        user_features.reshape(1, -1),
-                        tree_features.reshape(1, -1)
-                    )[0][0]
+                    sim = cosine_similarity_manual(user_features, tree_features)
                     
                     # Scale to 0-100
                     confidence = max(0, min(100, (sim + 1) / 2 * 100))

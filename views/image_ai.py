@@ -31,7 +31,11 @@ def render_image_ai():
     
     if uploaded_file:
         # Display uploaded image
-        image = Image.open(uploaded_file)
+        try:
+            image = Image.open(uploaded_file).convert("RGB")
+        except:
+            st.error("Invalid image file")
+            return
         
         col1, col2 = st.columns([1, 2])
         
@@ -45,12 +49,16 @@ def render_image_ai():
             # Show loading spinner
             with st.spinner("🔍 Analyzing image..."):
                 # Use tree classifier
-                classifier = TreeImageClassifier()
+                @st.cache_resource
+                def get_classifier():
+                    return TreeImageClassifier()
+
+                classifier = get_classifier()
                 
                 # Get predictions
                 predictions = classifier.predict_tree(image, trees, top_k=5)
                 
-                if predictions:
+                if predictions and len(predictions) > 0:
                     st.success("✅ Analysis complete!")
                     st.markdown("<br>", unsafe_allow_html=True)
                     
