@@ -50,19 +50,21 @@ def render_chatbot():
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Chat input form
-    user_input = st.text_input(
-    "Your question...",
-    key="chatbot_input"
-    )
+    with st.form("chatbot_form", clear_on_submit=False):
+        user_input = st.text_input(
+            "Your question...",
+            placeholder="Ask me about trees, gardening, climate, etc.",
+            key="chatbot_input",
+            value=st.session_state.chatbot_suggestion
+        )
+        submitted = st.form_submit_button("Send")
 
-    if st.button("Send"):
-        if user_input:
-            st.session_state.chat_history.append({'role': 'user', 'message': user_input})
-            response = generate_chatbot_response(user_input, trees)
-            st.session_state.chat_history.append({'role': 'assistant', 'message': response})
-            st.session_state.chatbot_input = ""
-            st.rerun()
-
+    if submitted and user_input:
+        st.session_state.chat_history.append({'role': 'user', 'message': user_input})
+        response = generate_chatbot_response(user_input, trees)
+        st.session_state.chat_history.append({'role': 'assistant', 'message': response})
+        st.session_state.chatbot_suggestion = ''
+        st.rerun()
 
     # Quick suggestions
     st.markdown("<br>", unsafe_allow_html=True)
