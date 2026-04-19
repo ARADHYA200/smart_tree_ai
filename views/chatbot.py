@@ -84,7 +84,7 @@ def render_chatbot():
         with cols[idx % 2]:
             if st.button(f"💭 {suggestion}", key=f"suggest_{idx}"):
                 st.session_state.chatbot_suggestion = suggestion
-                st.experimental_rerun()
+                st.rerun()
 
 def generate_chatbot_response(user_input: str, trees: list) -> str:
     """
